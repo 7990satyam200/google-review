@@ -18,10 +18,10 @@ service_provider = st.sidebar.selectbox(
     "Select Diagnostic Service Provider",
     ("Redcliffe Labs", "Healthians", "Lal PathLabs")
 )
-v_polarity = st.sidebar.checkbox('Show Review Polarity/Rating Plots ', True)
-my_slider = st.sidebar.checkbox('Select Reviews with Polarity Values', True)
-wordcloud = st.sidebar.checkbox('Visualize WordCloud', True)
-grams = st.sidebar.checkbox('Visualize Unigrams, Bigrams and Trigrams', True)
+v_polarity = st.sidebar.checkbox('Show Review Polarity/Rating Plots ', False)
+my_slider = st.sidebar.checkbox('Select Reviews with Polarity Values', False)
+wordcloud = st.sidebar.checkbox('Visualize WordCloud', False)
+grams = st.sidebar.checkbox('Visualize Unigrams, Bigrams and Trigrams', False)
 topic_distribution = st.sidebar.checkbox('Topic distribution', True)
 
 # nlp = spacy.load("en_core_web_sm")
